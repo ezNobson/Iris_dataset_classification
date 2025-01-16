@@ -43,6 +43,6 @@ Visualized the confusion matrix to analyze the classification performance.
 Results Visualization:
 Plotted the decision boundaries to show how the model separates the classes.
 ## Results
-The model achieved an accuracy of 94.7% on the test set.
+The model achieved an accuracy of 97.4% on the test set.
 The confusion matrix shows that the model performs well in classifying all three flower species.
 The decision boundary visualization confirms that the model effectively separates the classes.
