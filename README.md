@@ -38,7 +38,7 @@ Model Building:
 Used the Logistic Regression algorithm.
 Trained the model on the training set.
 Model Evaluation:
-Achieved an accuracy of 94.7% on the test set.
+Achieved an accuracy of 97.4% on the test set.
 Visualized the confusion matrix to analyze the classification performance.
 Results Visualization:
 Plotted the decision boundaries to show how the model separates the classes.
