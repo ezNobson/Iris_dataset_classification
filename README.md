@@ -1,7 +1,11 @@
 ## Iris_dataset_classification
 ## Project Description
-This project involves building a classification model to predict the species of a flower based on its features, such as the length and width of sepals and petals. The well-known Iris Dataset was used, which is a classic dataset in machine learning.
+This project aims to compare the performance of three popular classification algorithms:
 
+Logistic Regression,
+K-Nearest Neighbours (KNN),
+Support Vector Machine (SVM).
+The well-known Iris dataset is used, which contains information about three species of iris flowers and their features
 ## Dataset
 Name: Iris Dataset
 Source: Built-in dataset from the scikit-learn library.
@@ -11,12 +15,20 @@ Number of features: 4 (sepal length, sepal width, petal length, petal width)
 Number of classes: 3 (setosa, versicolor, virginica)
 Goal: Predict the species of a flower based on its features.
 
-## Project Goals
-The main goals of this project are:
+## Algorithms
+The following algorithms were implemented and evaluated in this project:
 
-To understand the basic steps in machine learning, such as data exploration, preprocessing, model building, and evaluation.
-To build a classification model using the Logistic Regression algorithm.
-To visualize the results and analyze the model's performance.
+Logistic Regression:
+A classic linear classification algorithm.
+Results were evaluated using accuracy and confusion matrices.
+K-Nearest Neighbours (KNN):
+A distance-based classification algorithm.
+The hyperparameter 
+𝑘
+k (number of neighbors) was optimized using GridSearchCV.
+Support Vector Machine (SVM):
+A classification algorithm that maximizes the margin between classes.
+
 ## Technologies and Tools
 The following technologies were used in this project:
 
@@ -32,17 +44,16 @@ Analyzed the distribution of features and visualized the data.
 Checked for missing values (no missing data in the Iris Dataset).
 Data Preparation:
 Selected two features: petal length (cm) and petal width (cm).
-Split the data into training and testing sets (75%/25%).
+Split the data into training, validation testing sets (75%/25%).
 Standardized the features using StandardScaler.
 Model Building:
-Used the Logistic Regression algorithm.
+Used the algorithms.
 Trained the model on the training set.
 Model Evaluation:
 Achieved an accuracy of 97.4% on the test set.
 Visualized the confusion matrix to analyze the classification performance.
 Results Visualization:
 Plotted the decision boundaries to show how the model separates the classes.
-## Results
-The model achieved an accuracy of 97.4% on the test set.
-The confusion matrix shows that the model performs well in classifying all three flower species.
-The decision boundary visualization confirms that the model effectively separates the classes.
+## Comparison of Results:
+The performance of all three algorithms was compared based on their accuracy and confusion matrices.
+Observations were made about which algorithm performed best and why.
